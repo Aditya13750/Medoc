@@ -1,0 +1,333 @@
+
+========================================
+🏥 OPD TOKEN ALLOCATION SYSTEM
+📅 Simulation Setup
+========================================
+
+✓ Doctor registered: Dr. Sharma (Cardiology)
+✓ Doctor registered: Dr. Patel (Neurology)
+✓ Doctor registered: Dr. Gupta (General Medicine)
+
+📋 Setting up Time Slots...
+
+  ✓ Dr. Sharma: 9:00-10:00 (Capacity: 20)
+  ✓ Dr. Sharma: 10:00-11:00 (Capacity: 20)
+  ✓ Dr. Sharma: 11:00-12:00 (Capacity: 20)
+  ✓ Dr. Sharma: 12:00-13:00 (Capacity: 20)
+  ✓ Dr. Patel: 9:00-10:00 (Capacity: 20)
+  ✓ Dr. Patel: 10:00-11:00 (Capacity: 20)
+  ✓ Dr. Patel: 11:00-12:00 (Capacity: 20)
+  ✓ Dr. Patel: 12:00-13:00 (Capacity: 20)
+  ✓ Dr. Gupta: 9:00-10:00 (Capacity: 20)
+  ✓ Dr. Gupta: 10:00-11:00 (Capacity: 20)
+  ✓ Dr. Gupta: 11:00-12:00 (Capacity: 20)
+  ✓ Dr. Gupta: 12:00-13:00 (Capacity: 20)
+
+👥 Creating Patient Pool...
+
+✓ Created 50 patients
+
+✅ Simulation setup complete!
+
+
+========================================
+🚀 STARTING SIMULATION
+========================================
+
+📱 PHASE 1: Online Pre-Bookings (7:00 AM)
+
+
+📱 Dr. Sharma - Online Bookings:
+  ✓ Harsh Saxena: Token TK-1000 (Slot: 12:00-13:00, Queue Pos: 1)
+  ✓ Meera Dutta: Token TK-1001 (Slot: 9:00-10:00, Queue Pos: 2)
+  ✓ Priya Singh: Token TK-1002 (Slot: 12:00-13:00, Queue Pos: 3)
+  ✓ Ritika Verma: Token TK-1003 (Slot: 10:00-11:00, Queue Pos: 1)
+  ✓ Divya Krishnan: Token TK-1004 (Slot: 12:00-13:00, Queue Pos: 5)
+  ✓ Hema Iyer: Token TK-1005 (Slot: 11:00-12:00, Queue Pos: 6)
+  ✓ Sanjay Bhat: Token TK-1006 (Slot: 9:00-10:00, Queue Pos: 7)
+  ✓ Anjali Gupta: Token TK-1007 (Slot: 11:00-12:00, Queue Pos: 2)
+  ✓ Abhishek Sharma: Token TK-1008 (Slot: 11:00-12:00, Queue Pos: 9)
+  ✓ Rohit Mishra: Token TK-1009 (Slot: 9:00-10:00, Queue Pos: 10)
+  ✓ Abhishek Sharma: Token TK-1010 (Slot: 9:00-10:00, Queue Pos: 11)
+  ✓ Pooja Saxena: Token TK-1011 (Slot: 12:00-13:00, Queue Pos: 12)
+  ✓ Shruti Malhotra: Token TK-1012 (Slot: 10:00-11:00, Queue Pos: 13)
+  ✓ Sneha Kapoor: Token TK-1013 (Slot: 11:00-12:00, Queue Pos: 14)
+  ✓ Ritika Verma: Token TK-1014 (Slot: 10:00-11:00, Queue Pos: 3)
+
+📱 Dr. Patel - Online Bookings:
+  ✓ Kavya Singh: Token TK-1015 (Slot: 9:00-10:00, Queue Pos: 1)
+  ✓ Sushant Mehta: Token TK-1016 (Slot: 10:00-11:00, Queue Pos: 2)
+  ✓ Gaurav Singh: Token TK-1017 (Slot: 11:00-12:00, Queue Pos: 3)
+  ✓ Priya Sharma: Token TK-1018 (Slot: 9:00-10:00, Queue Pos: 4)
+  ✓ Ramesh Yadav: Token TK-1019 (Slot: 11:00-12:00, Queue Pos: 5)
+  ✓ Harsh Saxena: Token TK-1020 (Slot: 12:00-13:00, Queue Pos: 6)
+  ✓ Pooja Saxena: Token TK-1021 (Slot: 10:00-11:00, Queue Pos: 7)
+  ✓ Manoj Kumar: Token TK-1022 (Slot: 12:00-13:00, Queue Pos: 8)
+  ✓ Isha Desai: Token TK-1023 (Slot: 12:00-13:00, Queue Pos: 9)
+  ✓ Vivek Nambiar: Token TK-1024 (Slot: 10:00-11:00, Queue Pos: 2)
+  ✓ Sneha Kapoor: Token TK-1025 (Slot: 10:00-11:00, Queue Pos: 11)
+  ✓ Gaurav Singh: Token TK-1026 (Slot: 12:00-13:00, Queue Pos: 12)
+  ✓ Akshara Pillai: Token TK-1027 (Slot: 9:00-10:00, Queue Pos: 13)
+  ✓ Vikram Patel: Token TK-1028 (Slot: 10:00-11:00, Queue Pos: 3)
+  ✓ Sunita Bansal: Token TK-1029 (Slot: 12:00-13:00, Queue Pos: 15)
+
+📱 Dr. Gupta - Online Bookings:
+  ✓ Zara Khan: Token TK-1030 (Slot: 11:00-12:00, Queue Pos: 1)
+  ✓ Sakshi Rao: Token TK-1031 (Slot: 10:00-11:00, Queue Pos: 2)
+  ✓ Chandni Joshi: Token TK-1032 (Slot: 9:00-10:00, Queue Pos: 3)
+  ✓ Lavanya Singh: Token TK-1033 (Slot: 11:00-12:00, Queue Pos: 4)
+  ✓ Vikram Patel: Token TK-1034 (Slot: 9:00-10:00, Queue Pos: 1)
+  ✓ Vivek Nambiar: Token TK-1035 (Slot: 9:00-10:00, Queue Pos: 2)
+  ✓ Abhishek Sharma: Token TK-1036 (Slot: 12:00-13:00, Queue Pos: 7)
+  ✓ Nikhil Joshi: Token TK-1037 (Slot: 11:00-12:00, Queue Pos: 8)
+  ✓ Neha Verma: Token TK-1038 (Slot: 12:00-13:00, Queue Pos: 9)
+  ✓ Disha Pillai: Token TK-1039 (Slot: 11:00-12:00, Queue Pos: 10)
+  ✓ Varun Kapoor: Token TK-1040 (Slot: 11:00-12:00, Queue Pos: 3)
+  ✓ Arjun Nair: Token TK-1041 (Slot: 9:00-10:00, Queue Pos: 12)
+  ✓ Anjali Gupta: Token TK-1042 (Slot: 10:00-11:00, Queue Pos: 4)
+  ✓ Meera Dutta: Token TK-1043 (Slot: 11:00-12:00, Queue Pos: 14)
+  ✓ Priya Singh: Token TK-1044 (Slot: 10:00-11:00, Queue Pos: 15)
+
+📊 Online Bookings Summary: 45/45 successful
+
+🏥 PHASE 2: OPD Opening & Walk-ins (9:00 AM)
+
+
+🚶 Dr. Sharma - Walk-in Patients:
+  ✓ Ramesh Yadav: Token TK-1045 (Queue Pos: 4)
+  ✓ Ravi Reddy: Token TK-1046 (Queue Pos: 5)
+  ✓ Ananya Reddy: Token TK-1047 (Queue Pos: 6)
+  ✓ Ravi Reddy: Token TK-1048 (Queue Pos: 7)
+  ✓ Priya Sharma: Token TK-1049 (Queue Pos: 8)
+  ✓ Tanvi Kapoor: Token TK-1050 (Queue Pos: 9)
+  ✓ Siddharth Patel: Token TK-1051 (Queue Pos: 10)
+  ✓ Rohit Mishra: Token TK-1052 (Queue Pos: 11)
+
+🚶 Dr. Patel - Walk-in Patients:
+  ✓ Disha Pillai: Token TK-1053 (Queue Pos: 4)
+  ✓ Rohit Mishra: Token TK-1054 (Queue Pos: 5)
+  ✓ Zara Khan: Token TK-1055 (Queue Pos: 6)
+  ✓ Chandni Joshi: Token TK-1056 (Queue Pos: 7)
+  ✓ Ananya Reddy: Token TK-1057 (Queue Pos: 8)
+  ✓ Rohit Mishra: Token TK-1058 (Queue Pos: 9)
+  ✓ Sameer Bhat: Token TK-1059 (Queue Pos: 10)
+  ✓ Meera Dutta: Token TK-1060 (Queue Pos: 11)
+
+🚶 Dr. Gupta - Walk-in Patients:
+  ✓ Nitin Desai: Token TK-1061 (Queue Pos: 5)
+  ✓ Vikram Patel: Token TK-1062 (Queue Pos: 6)
+  ✓ Sneha Kapoor: Token TK-1063 (Queue Pos: 7)
+  ✓ Abhishek Sharma: Token TK-1064 (Queue Pos: 8)
+  ✓ Priya Sharma: Token TK-1065 (Queue Pos: 9)
+  ✓ Manoj Kumar: Token TK-1066 (Queue Pos: 10)
+  ✓ Rohit Mishra: Token TK-1067 (Queue Pos: 11)
+  ✓ Akash Mishra: Token TK-1068 (Queue Pos: 12)
+
+📊 Walk-in Summary: 24/24 successful
+
+💰 PHASE 3: Paid Priority Bookings (9:30 AM)
+
+
+💎 Dr. Sharma - Paid Priority Bookings:
+  ✓ Anjali Gupta: Token TK-1069 (Premium) (Queue Pos: 4)
+  ✓ Ramesh Yadav: Token TK-1070 (Premium) (Queue Pos: 5)
+  ✓ Ritika Verma: Token TK-1071 (Premium) (Queue Pos: 6)
+
+💎 Dr. Patel - Paid Priority Bookings:
+  ✓ Deepak Sharma: Token TK-1072 (Premium) (Queue Pos: 4)
+  ✓ Ramesh Yadav: Token TK-1073 (Premium) (Queue Pos: 5)
+  ✓ Priya Singh: Token TK-1074 (Premium) (Queue Pos: 6)
+
+💎 Dr. Gupta - Paid Priority Bookings:
+  ✓ Sameer Bhat: Token TK-1075 (Premium) (Queue Pos: 5)
+  ✓ Shruti Malhotra: Token TK-1076 (Premium) (Queue Pos: 6)
+  ✓ Manoj Kumar: Token TK-1077 (Premium) (Queue Pos: 7)
+
+📊 Paid Priority Summary: 9/9 successful
+
+🚨 PHASE 4: Emergency Case (10:15 AM)
+
+
+🚨 EMERGENCY CASE for Dr. Sharma
+Patient: Tanvi Kapoor
+Requested Slot: 9:00-10:00
+
+Before Emergency: 7/20 tokens allocated
+✓ Emergency token allocated: TK-1078
+📍 Queue Position: 1
+⚠️  Capacity Override: true
+After Emergency: undefined/undefined tokens allocated
+
+👨‍⚕️ PHASE 5: Token Processing (10:30 AM - 1:00 PM)
+
+
+👨‍⚕️  Dr. Sharma - Processing Tokens:
+  ✓ TK-1000: COMPLETED (Patient: Harsh Saxena)
+  ⚠️  TK-1001: NO-SHOW (Patient: Meera Dutta)
+  ✓ TK-1002: COMPLETED (Patient: Priya Singh)
+  ✓ TK-1003: COMPLETED (Patient: Ritika Verma)
+  ✓ TK-1004: COMPLETED (Patient: Divya Krishnan)
+  ✓ TK-1005: COMPLETED (Patient: Hema Iyer)
+  ✓ TK-1006: COMPLETED (Patient: Sanjay Bhat)
+  ✓ TK-1007: COMPLETED (Patient: Anjali Gupta)
+  ✓ TK-1008: COMPLETED (Patient: Abhishek Sharma)
+  ✓ TK-1009: COMPLETED (Patient: Rohit Mishra)
+  ✓ TK-1010: COMPLETED (Patient: Abhishek Sharma)
+  ✓ TK-1011: COMPLETED (Patient: Pooja Saxena)
+
+👨‍⚕️  Dr. Patel - Processing Tokens:
+  ✓ TK-1015: COMPLETED (Patient: Kavya Singh)
+  ⚠️  TK-1016: NO-SHOW (Patient: Sushant Mehta)
+  ✓ TK-1017: COMPLETED (Patient: Gaurav Singh)
+  ⚠️  TK-1018: NO-SHOW (Patient: Priya Sharma)
+  ✓ TK-1019: COMPLETED (Patient: Ramesh Yadav)
+  ⚠️  TK-1020: NO-SHOW (Patient: Harsh Saxena)
+  ⚠️  TK-1021: NO-SHOW (Patient: Pooja Saxena)
+  ✓ TK-1022: COMPLETED (Patient: Manoj Kumar)
+  → TK-1023: CALLED (Under consultation)
+  ✓ TK-1024: COMPLETED (Patient: Vivek Nambiar)
+  ✓ TK-1025: COMPLETED (Patient: Sneha Kapoor)
+  → TK-1026: CALLED (Under consultation)
+
+👨‍⚕️  Dr. Gupta - Processing Tokens:
+  ✓ TK-1030: COMPLETED (Patient: Zara Khan)
+  → TK-1031: CALLED (Under consultation)
+  ✓ TK-1032: COMPLETED (Patient: Chandni Joshi)
+  ✓ TK-1033: COMPLETED (Patient: Lavanya Singh)
+  ⚠️  TK-1034: NO-SHOW (Patient: Vikram Patel)
+  ✓ TK-1035: COMPLETED (Patient: Vivek Nambiar)
+  ✓ TK-1036: COMPLETED (Patient: Abhishek Sharma)
+  ✓ TK-1037: COMPLETED (Patient: Nikhil Joshi)
+  ⚠️  TK-1038: NO-SHOW (Patient: Neha Verma)
+  ✓ TK-1039: COMPLETED (Patient: Disha Pillai)
+  ✓ TK-1040: COMPLETED (Patient: Varun Kapoor)
+  → TK-1041: CALLED (Under consultation)
+
+📊 Token Processing Summary:
+  ✓ Completed: 25
+  ⚠️  No-shows: 7
+  → Called: 36
+
+❌ PHASE 6: Cancellations & Reallocations (12:00 PM)
+
+
+❌ Cancelling Token: TK-1049 (Patient: Priya Sharma)
+  ✓ Token cancelled
+
+❌ Cancelling Token: TK-1054 (Patient: Rohit Mishra)
+  ✓ Token cancelled
+
+❌ Cancelling Token: TK-1075 (Patient: Sameer Bhat)
+  ✓ Token cancelled
+
+📊 Cancellation Summary:
+  ❌ Total Cancellations: 3
+  🔄 Reallocations: 0
+
+📊 PHASE 7: End-of-Day Analytics
+
+📈 END-OF-DAY ANALYTICS
+
+================================================================================
+
+Dr. Sharma (Cardiology)
+--------------------------------------------------------------------------------
+
+Token Statistics:
+  📝 Total Allocated: 14
+  📞 Called: 0
+  ✅ Completed: 11
+  ⚠️  No-shows: 1
+  ❌ Cancellations: 1
+  🚨 Emergencies: 1
+  🔄 Follow-ups: 3
+
+Source Breakdown:
+  • online_booking: 15 (55.6%)
+  • walk_in: 8 (29.6%)
+  • paid_priority: 3 (11.1%)
+  • emergency: 1 (3.7%)
+
+Slot Utilization:
+  900-1000: 4/20 [████░░░░░░░░░░░░░░░░] 20.0%
+  1000-1100: 4/20 [████░░░░░░░░░░░░░░░░] 20.0%
+  1100-1200: 5/20 [█████░░░░░░░░░░░░░░░] 25.0%
+  1200-1300: 1/20 [█░░░░░░░░░░░░░░░░░░░] 5.0%
+
+Performance Metrics:
+  ✅ Completion Rate: 84.6%
+  ⚠️  No-show Rate: 7.7%
+  📊 Avg Utilization: 17.5%
+
+Dr. Patel (Neurology)
+--------------------------------------------------------------------------------
+
+Token Statistics:
+  📝 Total Allocated: 13
+  📞 Called: 2
+  ✅ Completed: 6
+  ⚠️  No-shows: 4
+  ❌ Cancellations: 1
+  🚨 Emergencies: 0
+  🔄 Follow-ups: 3
+
+Source Breakdown:
+  • online_booking: 15 (57.7%)
+  • walk_in: 8 (30.8%)
+  • paid_priority: 3 (11.5%)
+
+Slot Utilization:
+  900-1000: 1/20 [█░░░░░░░░░░░░░░░░░░░] 5.0%
+  1000-1100: 5/20 [█████░░░░░░░░░░░░░░░] 25.0%
+  1200-1300: 9/20 [█████████░░░░░░░░░░░] 45.0%
+
+Performance Metrics:
+  ✅ Completion Rate: 54.5%
+  ⚠️  No-show Rate: 36.4%
+  📊 Avg Utilization: 18.8%
+
+Dr. Gupta (General Medicine)
+--------------------------------------------------------------------------------
+
+Token Statistics:
+  📝 Total Allocated: 13
+  📞 Called: 2
+  ✅ Completed: 8
+  ⚠️  No-shows: 2
+  ❌ Cancellations: 1
+  🚨 Emergencies: 0
+  🔄 Follow-ups: 4
+
+Source Breakdown:
+  • online_booking: 15 (57.7%)
+  • walk_in: 8 (30.8%)
+  • paid_priority: 3 (11.5%)
+
+Slot Utilization:
+  900-1000: 4/20 [████░░░░░░░░░░░░░░░░] 20.0%
+  1000-1100: 5/20 [█████░░░░░░░░░░░░░░░] 25.0%
+  1100-1200: 1/20 [█░░░░░░░░░░░░░░░░░░░] 5.0%
+  1200-1300: 5/20 [█████░░░░░░░░░░░░░░░] 25.0%
+
+Performance Metrics:
+  ✅ Completion Rate: 72.7%
+  ⚠️  No-show Rate: 18.2%
+  📊 Avg Utilization: 18.8%
+
+================================================================================
+
+🏥 OVERALL STATISTICS
+
+Total Tokens Allocated: 79
+Total Patients Served: 25
+Total No-shows: 7
+Total Cancellations: 3
+Pending Consultations: 40
+
+Dynamic Reallocations: 0
+
+================================================================================
+
+✅ Simulation complete!
+⏱️  Execution time: 5ms
+
