@@ -382,14 +382,16 @@ class OPDSimulation {
       console.log(`📍 Queue Position: ${result.queuePosition}`);
       console.log(`⚠️  Capacity Override: ${result.capacityOverride}`);
 
-      const afterUtilization = this.tokenService.getSlotUtilization(
+         const afterUtilization = await this.tokenService.getSlotUtilization(
         doctor.id,
         slot.startTime,
         slot.endTime
       );
-      console.log(
-        `After Emergency: ${afterUtilization.allocated}/${afterUtilization.capacity} tokens allocated`
-      );
+         if (afterUtilization) {
+           console.log(
+             `After Emergency: ${afterUtilization.allocated}/${afterUtilization.capacity} tokens allocated`
+           );
+         }
     }
 
     this.simulationEvents.push({
@@ -591,7 +593,8 @@ class OPDSimulation {
     console.log(`Total Patients Served: ${totalCompleted}`);
     console.log(`Total No-shows: ${totalNoShows}`);
     console.log(`Total Cancellations: ${totalCancellations}`);
-    console.log(`Pending Consultations: ${totalAllocated}`);
+        const pendingConsultations = totalAllocated + totalNoShows;
+        console.log(`Pending Consultations: ${pendingConsultations}`);
 
     // Reallocation statistics
     const reallocatedTokens = allTokens.filter((t) => t.reallocatedAt);
